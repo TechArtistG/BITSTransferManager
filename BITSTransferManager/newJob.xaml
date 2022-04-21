@@ -1,0 +1,16 @@
+﻿<Window x:Class="BITSTransferManager.newJob"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BITSTransferManager"
+        mc:Ignorable="d"
+        Title="newJob" Height="200" Width="800" MaxWidth="800" MaxHeight="200" MinWidth="800" MinHeight="200">
+    <Grid>
+        <Label Content="Destination" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="dstPath" HorizontalAlignment="Left" Height="23" Margin="10,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="745" AllowDrop="True"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="627,139,0,0" VerticalAlignment="Top" Width="75" Click="ok_Click" IsDefault="true"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="707,139,0,0" VerticalAlignment="Top" Width="75" IsCancel="True"/>
+        <Button x:Name="dstBrowse" Content="..." HorizontalAlignment="Left" Margin="755,32,0,0" VerticalAlignment="Top" Width="27" Height="23" Click="dstBrowse_Click"/>
+    </Grid>
+</Window>

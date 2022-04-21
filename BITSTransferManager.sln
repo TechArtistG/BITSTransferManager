@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30704.19
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BITSTransferManager", "BITSTransferManager\BITSTransferManager.csproj", "{FA83F498-EDE3-4D83-A7E3-ABBD7753DC70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aga.Controls", "Aga.Controls\Aga.Controls.csproj", "{D17CD489-1B14-47EB-8C22-C189D078AEC9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BITSTransferManagerSetup", "BITSTransferManagerSetup\BITSTransferManagerSetup.vdproj", "{3121C61C-3DAC-4D47-B3F9-6D97583CE027}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA83F498-EDE3-4D83-A7E3-ABBD7753DC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA83F498-EDE3-4D83-A7E3-ABBD7753DC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA83F498-EDE3-4D83-A7E3-ABBD7753DC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA83F498-EDE3-4D83-A7E3-ABBD7753DC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17CD489-1B14-47EB-8C22-C189D078AEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17CD489-1B14-47EB-8C22-C189D078AEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17CD489-1B14-47EB-8C22-C189D078AEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17CD489-1B14-47EB-8C22-C189D078AEC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3121C61C-3DAC-4D47-B3F9-6D97583CE027}.Debug|Any CPU.ActiveCfg = Debug
+		{3121C61C-3DAC-4D47-B3F9-6D97583CE027}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {054438AD-1753-4998-BEA1-F6339F8E58A3}
+	EndGlobalSection
+EndGlobal
