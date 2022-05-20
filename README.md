@@ -49,7 +49,8 @@ In the case of network errors etc BITS jobs created using this method have a tim
 
 The script is called BITSPasteFiles.ps1 and is located in the BITS Transfer Manager apps install location.  You can use it in your own automations by copying files to the clipboard then calling the script supplying a destination path.
 
-
+## Building
+Use VS 2019+ to build the BITSTransferManager project.  To build the BITSTransferManagerSetup project you'll first need to install the "Installer Project" Visual Studio extension.
 
 ## Known Bugs and Issues
 - When copying large file sizes (or the entire job size is large) the Paste script's job progress will error.  This does not affect the actual job, just the progress display.
