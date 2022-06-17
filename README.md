@@ -1,7 +1,7 @@
 # BITS Transfer Manager
 
 
-BITS Transfer Manager is a .Net App + supporting Powershell script to ease the use of BITS file transfers.  BITS is a powerfull tool that supports asynchronous file transfers and is very resilient to transient network errors.  It can even recover from a full restart of windows in the case of power outages etc.  However there's no easy way to create and create and manage BITS jobs, until now!
+BITS Transfer Manager is a .Net App + supporting Powershell script to ease the use of BITS file transfers.  BITS is a powerfull tool that supports asynchronous file transfers and is very resilient to transient network errors.  It can even recover from a full restart of windows in the case of power outages etc.  However there's no easy way to create and manage BITS jobs, until now!
  
 The main problem with using BITS asynchronous file transfers is they are not automically completed.  ie even if the files have finished copying they are not renamed to the correct file names until the BITS system is notified it should finish the job.
  
